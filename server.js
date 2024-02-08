@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 4322;
+const port = process.env.PORT || 4400;
 const openaiApiCreds = require("./openaiApiCreds.json");
 
 // // Log all incoming requests
