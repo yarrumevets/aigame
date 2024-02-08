@@ -69,7 +69,6 @@ const closeButton = document.getElementById("closebutton");
 const userPrompt = document.getElementById("userprompt");
 const aiResponse = document.getElementById("airesponse");
 const promptModal = document.getElementById("talkwrapperoverlay");
-promptModal.style.display = "none";
 
 async function sendMessage() {
   sayButton.setAttribute("disabled", "disabled");

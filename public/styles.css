@@ -1,82 +1,85 @@
 body {
-    background-color: chocolate;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: ivory;
+  background-color: chocolate;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: ivory;
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background-color: ivory;
+  border: 0;
+  height: 1px;
+  background-color: ivory;
 }
 
 #game {
-    background-color: ivory;
-    /* position: relative;
+  background-color: ivory;
+  /* position: relative;
     z-index: 1; */
 }
 
 #talkwrapperoverlay {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    width: 620px;
-    height: 330px;
-    background-color: rgba(0,0,0,0.5);
-    border-radius: 5px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 620px;
+  height: 330px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  display: none;
 }
 
-#userprompt, #airesponse {
-    position: absolute;
-    left: 10px;
-    background-color: antiquewhite;
-    resize: none;
-    border: 2px solid orangered;
-    border-radius: 10px;
-    padding: 10px;
+#userprompt,
+#airesponse {
+  position: absolute;
+  left: 10px;
+  background-color: antiquewhite;
+  resize: none;
+  border: 2px solid orangered;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-#saybutton, #closebutton {
-    width: 50px;
-    height: 50px;
-    font-size: 25px;
-    background-color: bisque;
-    border: 2px solid orangered;
-    border-radius: 10px;
-    color: red;
-    position: absolute;
-    top: 10px;
+#saybutton,
+#closebutton {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  background-color: bisque;
+  border: 2px solid orangered;
+  border-radius: 10px;
+  color: red;
+  position: absolute;
+  top: 10px;
 }
 
-#saybutton:hover, #closebutton:hover {
-    background-color: red;
-    color: bisque;
-    border-color: bisque;
+#saybutton:hover,
+#closebutton:hover {
+  background-color: red;
+  color: bisque;
+  border-color: bisque;
 }
 
 #saybutton:disabled {
-    background-color: lightgray;
-    color: darkgray;
-    border-color: lightgrey;
+  background-color: lightgray;
+  color: darkgray;
+  border-color: lightgrey;
 }
 
 #saybutton {
-    left: 510px;
+  left: 510px;
 }
 
 #closebutton {
-    left: 565px;
+  left: 565px;
 }
 
 #userprompt {
-    top: 15px;
-    width: 490px;
+  top: 15px;
+  width: 490px;
 }
 
-
 #airesponse {
-    top: 70px;
-    text-align: center;
-    width: 600px;
-    height: 150px;
+  top: 70px;
+  text-align: center;
+  width: 600px;
+  height: 150px;
 }
