@@ -2,6 +2,10 @@ body {
   background-color: chocolate;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: ivory;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 hr {
